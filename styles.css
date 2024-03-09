@@ -1,0 +1,141 @@
+/* Estilos para o header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Estilos para o título h2 */
+h2{
+    color: rgb(59, 59, 59);
+    margin: 70px 20px 15px; /* Adicione uma margem inferior de 20px */
+    padding: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#logo {
+    max-width: 150px; /* Ajuste conforme necessário */
+}
+
+/* Estilos para os links de navegação */
+#links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#links a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+#links a:hover {
+    color: #666;
+}
+
+/* Estilos para o dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f5f5f5;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    margin-top: 80px; /* Para dar espaço ao header fixo */
+    padding: 20px;
+    min-height: calc(100vh - 200px); /* Menos o tamanho do header e do footer */
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ccc;
+    margin-top: auto; /* Para ocupar o espaço restante */
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cor do fundo */
+#cor {
+    background-image: linear-gradient(to top, #4e51f1b9, white);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px; /* Largura máxima da grade */
+    margin: 0 auto;
+}
+
+.block {
+    margin: 10px;
+}
+
+.block img {
+    width: 300px; /* Largura das imagens */
+    height: 200px; /* Altura das imagens */
+    object-fit: cover;
+}
+#versiculo, #sobre{
+    margin: 10px 10px;
+    padding: auto;
+    font-size:large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(59, 59, 59);
+    text-align: center;
+}
+.autor{
+    text-align: end;
+    margin: 10px 10px;
+    padding: auto;
+    font-size:large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(59, 59, 59);
+}
+.texto{
+    margin: 10px 50px;
+    padding: 20px;
+    font-size:large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(73, 73, 73);
+    background-color: #EEDEC1;
+    border-radius: 3%;
+}
